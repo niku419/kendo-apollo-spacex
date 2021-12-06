@@ -1,0 +1,30 @@
+// App.scss
+$primary: #34568B;
+$component-bg: #fff;
+
+@import "~@progress/kendo-theme-default/dist/all.scss";
+
+.card-hover:hover {
+  background-color: $primary;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: $primary;
+}
+.k-card:hover .k-card-header .k-card-title {
+  background-color: $primary;
+  color: #fff;
+}
+.k-card:hover .k-card-body {
+  background-color: $primary;
+  color: #fff;
+}
+.IDCard,
+.IDCard :first-child {
+  background-color: $primary;
+  color: #fff;
+}
+.heading{
+  color: $primary;
+}
